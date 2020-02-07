@@ -1,0 +1,1 @@
+Pero un brazo robótico no tiene gracia si solo se mueve, ¡hagamos que agarre algo!

@@ -1,0 +1,5 @@
+procedure MoverBrazoAl(direccion){
+  Sacar(Negro)
+  Mover(direccion)
+  Poner(Negro)
+}
