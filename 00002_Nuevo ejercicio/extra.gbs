@@ -3,3 +3,7 @@ procedure MoverBrazoAl(direccion){
   Mover(direccion)
   Poner(Negro)
 }
+
+procedure LevantarContenedor(){
+  
+}

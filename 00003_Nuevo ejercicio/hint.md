@@ -1,0 +1,1 @@
+La mitad de un número se calcula dividiendo a ese número por 2. En este caso, ese número es el resultado de la suma.
