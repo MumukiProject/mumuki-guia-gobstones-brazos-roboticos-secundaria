@@ -9,5 +9,21 @@ procedure LevantarContenedor(){
 }
 
 procedure ExtenderBrazo(){
-  
+  while(puedeMover(Oste)){
+    MoverBrazoAl(Oste)
+  }
+}
+
+procedure AgarrarContenedor(){
+  repeat(nroBolitas(Rojo)+nroBolitas(Verde)){
+    Sacar(Azul)
+  }
+}
+
+procedure MoverContenedorAl(direccion){
+ if(hayBolitas(Azul)){
+   Sacar(Azul)
+ } 
+ MoverBrazoAl(direccion)
+ Poner(Azul)
 }
