@@ -1,0 +1,35 @@
+procedure MoverBrazoAl(direccion){
+  Sacar(Negro)
+  Mover(direccion)
+  Poner(Negro)
+}
+
+procedure LevantarContenedor(){
+  MoverContenedorAl(Norte)
+}
+
+procedure ExtenderBrazo(){
+  while(puedeMover(Oste)){
+    MoverBrazoAl(Oste)
+  }
+}
+
+procedure AgarrarContenedor(){
+  repeat(nroBolitas(Rojo)+nroBolitas(Verde)){
+    Sacar(Azul)
+  }
+}
+
+procedure MoverContenedorAl(direccion){
+ if(hayBolitas(Azul)){
+   Sacar(Azul)
+ } 
+ MoverBrazoAl(direccion)
+ Poner(Azul)
+}
+
+function hayContenedores(){
+  IrAlBorde(Oeste)
+  IrAlBorde(Sur)
+  return hayBolitas(Azul)
+}
