@@ -1,4 +1,4 @@
-<gs-attire attire-url="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-brazos-roboticos/master/assets/attires/config_1581000611416.json"></gs-attire>
+<gs-attire attire-url="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-brazos-roboticos-secundaria/master/assets/attires/config_1581361835022.json"></gs-attire>
 
 Aunque se llame brazo robótico, su mano no es como la nuestra :hand:. Solo tiene dos dedos en forma de gancho que son más que suficientes para _agarrar_. 
 
