@@ -3,15 +3,3 @@ procedure MoverBrazoAl(direccion){
   Mover(direccion)
   Poner(Negro)
 }
-
-procedure LevantarContenedor(){
-  MoverContenedorAl(Norte)
-}
-
-procedure MoverContenedorAl(direccion){
-  if(hayBolitas(Azul)){
-    Sacar(Azul)
-  }
-  MoverBrazoAl(direccion)
-  Poner(Azul)
-}

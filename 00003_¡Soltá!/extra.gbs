@@ -1,0 +1,13 @@
+procedure MoverBrazoAl(direccion){
+  Sacar(Negro)
+  Mover(direccion)
+  Poner(Negro)
+}
+
+procedure LevantarContenedor(){
+  MoverContenedorAl(Norte)
+}
+
+procedure ExtenderBrazo(){
+  
+}
