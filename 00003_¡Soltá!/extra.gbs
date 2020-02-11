@@ -9,8 +9,8 @@ procedure LevantarContenedor(){
 }
 
 procedure ExtenderBrazo(){
-  while(puedeMover(Oste)){
-    MoverBrazoAl(Oste)
+  while(puedeMover(Oeste)){
+    MoverBrazoAl(Oeste)
   }
 }
 
