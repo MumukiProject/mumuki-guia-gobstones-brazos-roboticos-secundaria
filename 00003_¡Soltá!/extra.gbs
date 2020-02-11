@@ -15,6 +15,7 @@ procedure ExtenderBrazo(){
 }
 
 procedure AgarrarContenedor(){
+  MoverBrazoAl(Sur)
   repeat(nroBolitas(Rojo)+nroBolitas(Verde)){
     Sacar(Azul)
   }
