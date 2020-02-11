@@ -5,6 +5,7 @@ procedure MoverBrazoAl(direccion){
 }
 
 procedure LevantarBrazo(){
+  Sacar(Azul)
   MoverBrazoAl(Norte)
 }
 
