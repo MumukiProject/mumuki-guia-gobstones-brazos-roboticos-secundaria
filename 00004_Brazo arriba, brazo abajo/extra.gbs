@@ -15,14 +15,14 @@ procedure ExtenderBrazo(){
   }
 }
 
-procedure AgarrarContenedor(){
-  MoverBrazoAl(Sur)
-  repeat(nroBolitas(Rojo)+nroBolitas(Verde)){
-    Sacar(Azul)
-  }
+
+procedure MoverContenedorAl(direccion){
+ if(hayBolitas(Azul)){
+   Sacar(Azul)
+ } 
+ MoverBrazoAl(direccion)
+ Poner(Azul)
 }
-
-
 
 function hayContenedores(){
   IrAlBorde(Oeste)
