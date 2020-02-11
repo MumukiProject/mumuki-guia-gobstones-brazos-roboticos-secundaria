@@ -1,8 +1,11 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: program
-  inspection: Uses:ExtenderBrazoRobotico
+  binding: "*"
+  inspection: Declares:ExtenderBrazoRobotico
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: ExtenderBrazoRobotico
   inspection: UsesWhile
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: program
+  inspection: Uses:ExtenderBrazoRobotico
