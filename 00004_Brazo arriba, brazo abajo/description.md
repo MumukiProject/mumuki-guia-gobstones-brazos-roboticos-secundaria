@@ -1,4 +1,4 @@
-<gs-attire attire-url="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-brazos-roboticos-secundaria/master/assets/attires/config_1581361835022.json"></gs-attire>
+<gs-attire attire-url="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-brazos-roboticos-secundaria/master/assets/attires/config_1581433346121.json"></gs-attire>
 
 Ya tenés experiencia con el uso del brazo robótico, así que cargar todos los contenedores en el tren va a ser una tarea fácil para vos. :smile:
 
