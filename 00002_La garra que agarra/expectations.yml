@@ -1,8 +1,11 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: program
-  inspection: Uses:AgarrarContenedor
+  binding: "*"
+  inspection: Declares:AgarrarContenedor
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: AgarrarContenedor
   inspection: UsesRepeat
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: program
+  inspection: Uses:AgarrarContenedor
