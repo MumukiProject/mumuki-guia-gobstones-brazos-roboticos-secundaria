@@ -4,17 +4,19 @@ procedure MoverBrazoAl(direccion){
   Poner(Negro)
 }
 
-procedure LevantarContenedor(){
-  MoverContenedorAl(Norte)
+procedure LevantarBrazo(){
+  Sacar(Azul)
+  MoverBrazoAl(Norte)
 }
 
 procedure ExtenderBrazo(){
-  while(puedeMover(Oste)){
-    MoverBrazoAl(Oste)
+  while(puedeMover(Oeste)){
+    MoverBrazoAl(Oeste)
   }
 }
 
 procedure AgarrarContenedor(){
+  MoverBrazoAl(Sur)
   repeat(nroBolitas(Rojo)+nroBolitas(Verde)){
     Sacar(Azul)
   }
