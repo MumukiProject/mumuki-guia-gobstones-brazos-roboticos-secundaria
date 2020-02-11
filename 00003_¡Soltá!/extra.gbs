@@ -4,8 +4,8 @@ procedure MoverBrazoAl(direccion){
   Poner(Negro)
 }
 
-procedure LevantarContenedor(){
-  MoverContenedorAl(Norte)
+procedure LevantarBrazo(){
+  MoverBrazoAl(Norte)
 }
 
 procedure ExtenderBrazo(){
