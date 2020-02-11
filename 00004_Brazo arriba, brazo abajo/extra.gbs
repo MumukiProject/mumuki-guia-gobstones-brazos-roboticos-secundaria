@@ -22,11 +22,10 @@ procedure AgarrarContenedor(){
   }
 }
 
-procedure MoverContenedorAl(direccion){
- if(hayBolitas(Azul)){
-   Sacar(Azul)
- } 
- MoverBrazoAl(direccion)
- Poner(Azul)
-}
 
+
+function hayContenedores(){
+  IrAlBorde(Oeste)
+  IrAlBorde(Sur)
+  return hayBolitas(Azul)
+}
