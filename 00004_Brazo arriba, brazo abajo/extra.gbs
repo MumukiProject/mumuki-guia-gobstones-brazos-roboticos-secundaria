@@ -1,0 +1,7 @@
+
+
+function hayContenedores(){
+  IrAlBorde(Oeste)
+  IrAlBorde(Sur)
+  return hayBolitas(Azul)
+}
