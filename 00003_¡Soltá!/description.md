@@ -1,4 +1,4 @@
-<gs-attire attire-url="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-brazos-roboticos-secundaria/master/assets/attires/config_1581361835022.json"></gs-attire>
+<gs-attire attire-url="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-brazos-roboticos-secundaria/master/assets/attires/config_1581433346121.json"></gs-attire>
 
 Una vez que el brazo tiene al contenedor, ya puede moverse con él para ponerlo en otro lado. ¿Dónde? :thinking: En el tren que distribuirá el maíz :steam_locomotive:. ¡Cuidado! Cuando el brazo suelta cosas, tiene que hacerlo despacio, por lo que la fuerza con la que lo haga, va a cambiar. :wink:
 
