@@ -7,6 +7,7 @@ examples:
      cell 0 1 Negro 2 
      cell 3 1 Negro 3 
      cell 0 0 Azul 16 Rojo 3 Verde 5 
+     cell 3 0 Rojo 3 Verde 5
      head 3 1
    final_board: |
      GBB/1.0
@@ -14,20 +15,21 @@ examples:
      cell 0 1 Negro 2 
      cell 3 1 Negro 3 
      cell 0 0 Rojo 3 Verde 5 
-     cell 3 0 Azul 2 
+     cell 3 0 Azul 8 Rojo 3 Verde 5
      head 3 1
  - initial_board: |
      GBB/1.0
      size 6 2
      cell 0 1 Negro 2 
-     cell 3 1 Negro 3 
-     cell 0 0 Azul 16 Rojo 3 Verde 5 
-     head 3 1
+     cell 5 1 Negro 3 
+     cell 0 0 Azul 18 Rojo 2 Verde 4 
+     cell 5 0 Rojo 2 Verde 4 
+     head 5 1
    final_board: |
      GBB/1.0
      size 6 2
      cell 0 1 Negro 2 
-     cell 3 1 Negro 3 
-     cell 0 0 Rojo 3 Verde 5 
-     cell 3 0 Azul 2 
-     head 3 1
+     cell 5 1 Negro 3 
+     cell 0 0 Rojo 2 Verde 4
+     cell 5 0 Azul 9 Rojo 2 Verde 4 
+     head 5 1
