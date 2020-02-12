@@ -23,7 +23,7 @@ procedure AgarrarContenedor(){
 }
 
 procedure MoverContenedorAl(direccion){
- if(hayBolitas(Azul)){
+ if(nroBolitas(Azul)== 1){
    Sacar(Azul)
  } 
  MoverBrazoAl(direccion)
